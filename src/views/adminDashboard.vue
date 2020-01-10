@@ -14,6 +14,7 @@
             <div class="date">
                 <p>Current Application</p>
                 <span>233</span>
+                <div class="horizontal"></div>
                 <div class="">
                     <p class="">Academy 2.0</p>
                 </div>
@@ -22,6 +23,7 @@
             <div class="t_app">
                 <p>Total Application</p>
                 <span>4253</span>
+                <div class="horizontal2"></div>
                 <div class="">
                     <p class=""> All entries so far</p>
                 </div>
@@ -30,6 +32,7 @@
             <div class="academy">
                 <p>Academy's</p>
                 <span>4</span>
+                <div class="horizontal3"></div>
                 <div class="">
                     <p class="">So far</p>
                 </div>
@@ -83,6 +86,12 @@ export default {
 </script>
 
 <style scoped>
+span{
+    margin-right: 90px;
+}
+h4 {
+    text-align: left;
+}
 .dashboard {
     margin-left: 292px;
     margin-top: 107px;
@@ -98,6 +107,7 @@ export default {
     color: #2B3C4E;
     /* margin-right: 2em; */
     margin-right: 540px;
+    text-align: left;
 }
 .date_section {
     display: flex;
@@ -154,9 +164,35 @@ button{
     background: #B1B1B1;
     border-radius: 4px;
     color:white;
-    padding:3 2 2 3;
+    /* padding:3 2 2 3; */
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-right: 31px;
+    padding-left: 38px;
 }
-.update{
-    padding-top: 0.3em;
+/* .update{
+    padding-top: 0px;
+} */
+.horizontal {
+  width: 80%;
+  height: 4px;
+  background: #006df0;
+  border-radius: 4px;
 }
+.horizontal2 {
+  width: 80%;
+  height: 4px;
+  background: #00F026;
+  border-radius: 4px;
+}
+.horizontal3 {
+  width: 80%;
+  height: 4px;
+  background: #F09000;
+  border-radius: 4px;
+}
+.date_section p{
+    margin-right: 100px;
+}
+
 </style>
