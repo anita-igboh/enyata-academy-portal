@@ -34,11 +34,11 @@
     </div>
     <form class="whole-form">
       <div class="form-row">
-        <div class="form-group">
+        <div class="form-groupa">
           <label>Option A</label>
           <input type="text" class="form-control" />
         </div>
-        <div class="form-group">
+        <div class="form-groupb">
           <label>Option B</label>
           <input type="text" class="form-control" />
         </div>
@@ -211,5 +211,8 @@ form {
 }
 .form-row{
   display: flex;
+}
+.form-groupa{
+  margin-bottom: 20px;
 }
 </style>

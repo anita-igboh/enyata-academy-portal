@@ -37,16 +37,21 @@ export default {
 }
 </script>
 <style scoped>
+.btn_sign{
+  margin-left: 473px;
+}
 .all {
-  background-image: url("../assets/background-logo.png"); 
+  background-image: url("../assets/backgroundcomp.png"); 
   background-repeat: no-repeat;
-  background:#122A3A;
-  width:100%;
-  height:100%;
+  /* background:#122A3A; */
+  /* width:100%; */
+  /* height:100%; */
+  background-position: center;
+
 }
 .first_sec {
   max-width: 400px;
-  margin: 0 auto;
+  margin-left: 600px;
 }
 .form-item{
   text-align: center;

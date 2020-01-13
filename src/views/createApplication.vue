@@ -11,7 +11,7 @@
 
         <div class="flex-inputs">
             <div class="choose-file">
-                <input class="first-input" type="text" name="" id="">
+                <input class="first-input" type="text" name="" id="" placeholder="+ Choose file">
             </div>
         <div class="text">
             <p>Link</p>
@@ -21,10 +21,10 @@
         <div class="second-content">
         <div>
             <p>Application closure date</p>
-            <input type="text" name="" id="" placeholder="dd/mm/yyyy">
+            <input type="text" name="" id="" placeholder="">
         </div>
         <div class="text2">
-            <p>Batch Id</p>
+            <p>Batch ID</p>
             <input type="text" name="" id="">
         </div>
         </div>
@@ -60,7 +60,7 @@ background: #2B3C4E;
 border-radius: 4px;
 width: 379px;
 height: 50px;
-margin-right: 30px;
+margin-left: 250px;
 color: white;
 border: none;
 }
@@ -109,7 +109,7 @@ display: flex;
 margin-top: 90px;
 }
 .text2 {
-margin-left: 100px;
+margin-left: 40px;
 }
 /* .text p {
 display: block;
@@ -119,7 +119,7 @@ display: flex;
 margin-top: 80px;
 }
 .text {
-margin-left: 80px;
+margin-left: 35px;
 }
 .second-input {
 border: 1.5px solid #2B3C4E;

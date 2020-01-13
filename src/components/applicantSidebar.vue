@@ -18,11 +18,11 @@
       <div class="active">
         <i class="fa fa-plus"></i>
         <span class="icon">
-          Create Assessment
+          Create Application
         </span>
       </div>
       <div class="active">
-        <i class="fa fa-plus"></i>
+        <i class="fa fa-download"></i>
         <span class="icon">
           Application Entries
         </span>
@@ -34,7 +34,7 @@
         </span>
       </div>
       <div class="active">
-        <i class="fa fa-download"></i>
+        <i class="fa fa-refresh"></i>
         <span class="icon">
           Assessment History
         </span>
@@ -99,9 +99,10 @@ i{
   letter-spacing: -0.02em;
   color:#2B3C4E;
 }
-/* .sidebar-icon {
-  padding-top: 50px;
-} */
+.sidebar-icon {
+  /* padding-top: 50px; */
+  margin-left: 40px;
+}
 /* .sidebar-icon > div {
   height: 50px;
   width: 100%;
@@ -124,11 +125,9 @@ i{
   padding-top: 10px;
 
 } */
-/* .sidebar-icon > div.active > p {
-  font-weight: bold;
+.sidebar-icon > div.active > span {
   color: #2b3c4e;
-  border-left: 4px solid #31d283;
-} */
+}
 .active {
   padding-top: 25px;
   margin-bottom: 1px;
