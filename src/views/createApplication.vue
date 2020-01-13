@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="hero">
     <div class="app">
         <applicantSidebar/>
     </div>
@@ -51,13 +51,16 @@ export default {
 </script>
 
 <style scoped>
+.compose{
+    text-align: left;
+}
 button {
 margin-top: 40px;
 background: #2B3C4E;
 border-radius: 4px;
 width: 379px;
 height: 50px;
-margin-left: 350px;
+margin-right: 30px;
 color: white;
 border: none;
 }
@@ -134,5 +137,9 @@ box-sizing: border-box;
 border-radius: 6.2069px;
 width: 456px;
 height: 108px;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 25% 75%;
 }
 </style>

@@ -13,7 +13,7 @@
         <div class="date_section">
             <div class="date">
                 <p>Current Application</p>
-                <span>233</span>
+                <span class="number">233</span>
                 <div class="horizontal"></div>
                 <div class="">
                     <p class="">Academy 2.0</p>
@@ -22,7 +22,7 @@
 
             <div class="t_app">
                 <p>Total Application</p>
-                <span>4253</span>
+                <span class="number">4253</span>
                 <div class="horizontal2"></div>
                 <div class="">
                     <p class=""> All entries so far</p>
@@ -31,7 +31,7 @@
 
             <div class="academy">
                 <p>Academy's</p>
-                <span>4</span>
+                <span class="number">4</span>
                 <div class="horizontal3"></div>
                 <div class="">
                     <p class="">So far</p>

@@ -10,22 +10,40 @@
 
     <div class="sidebar-icon">
       <div class="active">
-        <p class="txt"><img src="../assets/dashboard.png" class="icon" />Dashboard</p>
+        <i class="fa fa-dashboard"></i>
+        <span class="icon">
+          Dashboard
+        </span>
       </div>
-      <div>
-        <p class="txt"><img src="../assets/create-assessment.png" class="icon" />Create Application</p>
+      <div class="active">
+        <i class="fa fa-plus"></i>
+        <span class="icon">
+          Create Assessment
+        </span>
       </div>
-      <div>
-        <p class="txt"><img src="../assets/app-entry.png" class="icon" />Application Entries</p>
+      <div class="active">
+        <i class="fa fa-plus"></i>
+        <span class="icon">
+          Application Entries
+        </span>
       </div>
-      <div>
-        <p class="txt"><img src="../assets/compose-ass.png" class="icon" />Compose Assessment</p>
+      <div class="active">
+        <i class="fa fa-file"></i>
+        <span class="icon">
+          Compose Assessment
+        </span>
       </div>
-      <div>
-        <p class='txt'><img src="../assets/asses-history.png" class="icon" />Assessment History</p>
+      <div class="active">
+        <i class="fa fa-download"></i>
+        <span class="icon">
+          Assessment History
+        </span>
       </div>
-      <div>
-        <p class="txt"><img src="../assets/result.png" class="icon" />Results</p>
+      <div class="active">
+        <i class="fa fa-plus"></i>
+        <span class="icon">
+          Results
+        </span>
       </div>
     </div>
   </div>
@@ -33,8 +51,12 @@
 
 
 <style  scoped>
+i{
+  margin-right: 7px;
+  font-size: 11px;
+}
 .sidebar {
-  /* width: 292px; */
+  width: 292px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
   background: #ffffff;
   min-height: 100%;
@@ -87,8 +109,9 @@
 .icon {
   margin-right: 25px;
   height: 12px;
+  text-align: left;
 }
-.sidebar-icon > div > p {
+/* .sidebar-icon > div > p {
   display: flex;
   font-family: "Lato", sans-serif;
   font-style: normal;
@@ -100,15 +123,17 @@
   text-align: left;
   padding-top: 10px;
 
-}
-.sidebar-icon > div.active > p {
+} */
+/* .sidebar-icon > div.active > p {
   font-weight: bold;
   color: #2b3c4e;
   border-left: 4px solid #31d283;
-}
+} */
 .active {
-  padding-top: 30px;
+  padding-top: 25px;
+  margin-bottom: 1px;
 }
+
 
 
 </style>

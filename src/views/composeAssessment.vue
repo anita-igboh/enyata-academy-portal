@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="hero">
     <div class="app">
         <applicantSidebar/>
     </div>
@@ -34,22 +34,22 @@
     </div>
     <form class="whole-form">
       <div class="form-row">
-        <div class="form-group col-md-6">
+        <div class="form-group">
           <label>Option A</label>
           <input type="text" class="form-control" />
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group">
           <label>Option B</label>
           <input type="text" class="form-control" />
         </div>
       </div>
 
       <div class="form-row">
-        <div class="form-group col-md-6">
+        <div class="form-group">
           <label>Option C</label>
           <input type="text" class="form-control" />
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group">
           <label>Option D</label>
           <input type="text" class="form-control" />
         </div>
@@ -158,6 +158,7 @@ input {
   line-height: 52px;
   letter-spacing: -0.02em;
   color: #2b3c4e;
+  text-align: left;
 }
 .right {
   margin-top: 120px;
@@ -203,5 +204,12 @@ form {
   box-sizing: border-box;
   border-radius: 4px;
   width: 456px;
+}
+.hero{
+  display:grid;
+  grid-template-columns: 25% 75%;
+}
+.form-row{
+  display: flex;
 }
 </style>

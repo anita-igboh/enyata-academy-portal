@@ -41,6 +41,8 @@ export default {
   background-image: url("../assets/background-logo.png"); 
   background-repeat: no-repeat;
   background:#122A3A;
+  width:100%;
+  height:100%;
 }
 .first_sec {
   max-width: 400px;
@@ -54,7 +56,7 @@ h5{
   font-size: 30px;
   font-weight: bold;
   color:white;
-  margin-top: 20px;
+  margin-top: 8px;
   margin-bottom: 0;
 }
 h6{
@@ -68,6 +70,7 @@ h6{
   display: flex;
   font-style: italic;
   font-size: 12px;
+  
 }
 button{
   margin:0 auto;
@@ -82,6 +85,7 @@ button{
 .password{
   padding-left: 755px;
   color:white;
+  
 }
 .input-form {
   margin: 0 auto;
@@ -98,9 +102,13 @@ label{
   color:white;
   margin-right: 17em;
   padding-top: 20em;
+
 }
 img{
   height: 70px;
   margin-top: 150px;
 }
+/* .f_s_txt{
+  padding-bottom: 50px;
+} */
 </style>
